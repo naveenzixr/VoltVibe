@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volt Vibe - Energy Redefined</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .tiles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .tile {
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .tile:hover {
+            transform: scale(1.05);
+        }
+        .cta {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .cta:hover {
+            background: #45a049;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        @media (max-width: 768px) {
+            .tiles {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Volt Vibe</h1>
+        <p>Revolutionizing Energy, One Step at a Time</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#tiles">Our Tiles</a>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQs</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Volt Vibe</h1>
+        <p>Harness the power of footsteps with our energy-generating tiles.</p>
+        <a href="#about" class="cta">Learn More</a>
+    </div>
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>At Volt Vibe, we are on a mission to create sustainable energy solutions. Our innovative tiles convert footsteps into electricity, making every step count.</p>
+    </div>
+    <div id="tiles" class="section">
+        <h2>Our Tiles</h2>
+        <p>Explore the cutting-edge technology behind our energy tiles:</p>
+        <div class="tiles">
+            <div class="tile">
+                <h3>Efficiency</h3>
+                <p>Up to 90% energy conversion rate.</p>
+            </div>
+            <div class="tile">
+                <h3>Durability</h3>
+                <p>Tested for over 1 million steps.</p>
+            </div>
+            <div class="tile">
+                <h3>Integration</h3>
+                <p>Compatible with smart grids and IoT devices.</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to collaborate? Reach out to us at <strong>contact@voltvibe.com</strong>.</p>
+    </div>
+    <div id="faq" class="section">
+        <h2>FAQs</h2>
+        <p><strong>Q: How does the technology work?</strong></p>
+        <p>A: Our tiles use piezoelectric sensors to convert mechanical pressure into electricity.</p>
+        <p><strong>Q: Can I install these at home?</strong></p>
+        <p>A: Yes! Our tiles are designed for both commercial and residential use.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Volt Vibe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
